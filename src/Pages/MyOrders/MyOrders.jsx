@@ -1,9 +1,10 @@
+import Layout from '../../Components/Layout/Layout'
 import Navbar from '../../Components/Navbar/navbar'
 function MyOrders(){
     return(
-        <div>
+        <Layout>
             <Navbar />
-        </div>
+        </Layout>
     )
 }
 export default MyOrders

@@ -1,12 +1,11 @@
+import Layout from '../../Components/Layout/Layout'
 import Navbar from '../../Components/Navbar/navbar'
 function Home() {
 
     return (
-        <>
-            <div>
-                <Navbar />
-            </div>
-        </>
+        <Layout>
+            <Navbar/>
+        </Layout>
     )
 }
 

@@ -2,18 +2,16 @@ import { NavLink } from 'react-router-dom'
 import {FaShoppingCart} from 'react-icons/fa'
 
 function Navbar(){
-    let activeStyle={
+    const activeStyle={
         textDecoration: 'underline'
     }
     return(
-        <nav className='flex justify-between items-center fixed z-10 w-full py-5 px-8 text-5m font-light '>
+        <nav className=' flex justify-between items-center fixed z-10 w-full py-5 px-8 text-5m font-light h-fit top-0 bg-emerald-200	'>
             {/* Navegacion izquierda */}
             <ul className='flex items-center gap-3'>
-                <li className='font-semibold text-lg'>
-                    <NavLink to='/' style={({isActive})=>
-                        isActive ? activeStyle : undefined
-                    }>
-                        Shopi
+                <li className='text-3xl font-bold text-green-500 size-5'>
+                    <NavLink to='/' >
+                        Shope
                     </NavLink>
                 </li>
                 <li>
@@ -61,7 +59,7 @@ function Navbar(){
             </ul>
             {/* Navegacion Derecha */}
             <ul className='flex items-center gap-3'>
-                <li>
+                <li className='font-semibold'>
                     Mymail@gmail.com
                 </li>
                 <li>
