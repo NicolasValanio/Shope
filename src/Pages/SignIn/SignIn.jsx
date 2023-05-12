@@ -1,8 +1,7 @@
+import Navbar from '../../Components/Navbar/navbar'
 function SignIn(){
     return(
-        <h1>
-            SignIn
-        </h1>
+        <Navbar />
     )
 }
 export default SignIn

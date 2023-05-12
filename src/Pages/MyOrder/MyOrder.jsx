@@ -1,9 +1,8 @@
+import Navbar from '../../Components/Navbar/navbar'
 function MyOrder(){
     return(
         <div>
-            <h1>
-                MyOrder
-            </h1>
+            <Navbar/>
         </div>
     )
 }
